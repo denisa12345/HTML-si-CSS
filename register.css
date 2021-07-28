@@ -1,0 +1,88 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(180deg, #acb3df 50%, #606fd1 100%);
+}
+.container-forms {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+}
+.group-tabs {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url("peisaj.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  color: black;
+}
+.group-tabs button {
+  width: 50%;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: Transparent;
+  color: rgb(255, 255, 255);
+}
+#client-form {
+  width: calc(100% - 60px);
+  padding: 20px 30px;
+  padding-bottom: 25px;
+}
+.group {
+  font-family: Arial;
+  font-size: 12px;
+  margin: 10px 0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: gray;
+}
+.group-submit {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.group label {
+  padding: 5px 0;
+}
+.group input {
+  font-family: Arial;
+  font-size: 11px;
+  height: 25px;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: lightgray;
+  color: darkgray;
+}
+
+#client-form button {
+  font-family: Arial;
+  font-size: 12px;
+  padding: 8px 20px;
+  border-radius: 15px;
+  border: 0;
+  background-color: darkblue;
+  color: white;
+}
+#client-form button:focus {
+  outline: none;
+}
